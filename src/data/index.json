@@ -1,0 +1,29 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "src": "./img/feather-pen-1.png",
+      "title": "Front-End",
+      "description": " HTML, CSS, JavaScript, ReactJs."
+    },
+    {
+      "id": "2",
+      "src": "./img/feather-pen-1.png",
+      "title": "Back-End",
+      "description": "ExpressJs, Flask, PHP ."
+    },
+    {
+      "id": "3",
+      "src": "./img/feather-pen-1.png",
+      "title": "Databases",
+      "description": "MySQL, Firebase, NoSQL."
+    },
+    {
+      "id": "4",
+      "src": "./img/feather-pen-1.png",
+      "title": "More Languages",
+      "description": "Python, C, Java, TypeScript"
+    }
+  ]
+
+}
