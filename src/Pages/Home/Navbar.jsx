@@ -86,20 +86,6 @@ function Navbar() {
               Expertise
             </Link>
           </li>
-          <li>
-            <Link
-              onClick={closeMenu}
-              activeClass="navbar--active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to="mySkills"
-              className="navbar--content"
-            >
-              Expertise
-            </Link>
-          </li>
         </ul>
       </div>
       <a
