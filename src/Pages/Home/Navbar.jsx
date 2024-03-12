@@ -34,7 +34,6 @@ function Navbar() {
 
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
- 
       <a
         className={`nav__hamburger ${navActive ? "active" : ""}`}
         onClick={toggleNav}
@@ -87,11 +86,28 @@ function Navbar() {
               Expertise
             </Link>
           </li>
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar--active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="mySkills"
+              className="navbar--content"
+            >
+              Expertise
+            </Link>
+          </li>
         </ul>
       </div>
-      <a href="mailto:mohammadmostafaa744@gmail.com" className="btn btn-outline-primary">
-  Contact Me
-</a>
+      <a
+        href="mailto:mohammadmostafaa744@gmail.com"
+        className="btn btn-outline-primary"
+      >
+        Contact Me
+      </a>
     </nav>
   );
 }
